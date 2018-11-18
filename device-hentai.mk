@@ -86,6 +86,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnetfilter_conntrack:64 \
     libnfnetlink:64 \
+    netutils-wrapper-1.0
 
 # NFC
 PRODUCT_PACKAGES += \
