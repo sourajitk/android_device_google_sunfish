@@ -15,7 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sunfish.mk \
+    $(LOCAL_DIR)/statix_sunfish.mk \
 
 COMMON_LUNCH_CHOICES := \
-    aosp_sunfish-userdebug \
+    statix_sunfish-user \
+    statix_sunfish-userdebug \
+    statix_sunfish-eng
