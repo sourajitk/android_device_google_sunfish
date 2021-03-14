@@ -15,8 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sunfish.mk \
-    $(LOCAL_DIR)/aosp_sunfish_hwasan.mk \
+    $(LOCAL_DIR)/hentai_sunfish.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_sunfish-userdebug \
+    hentai_sunfish-user \
+    hentai_sunfish-userdebug \
+    hentai_sunfish-eng

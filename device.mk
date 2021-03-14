@@ -16,6 +16,8 @@
 
 LOCAL_PATH := device/google/sunfish
 
+include device/google/sunfish/device-hentai.mk
+
 PRODUCT_VENDOR_MOVE_ENABLED := true
 TARGET_BOARD_PLATFORM := sm6150
 MSMSTEPPE := sm6150
