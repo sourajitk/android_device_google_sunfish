@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_kernel_google_sunfish",
+    "target_path": "kernel/google/sunfish"
+  },
+  {
+    "repository": "android_vendor_google_sunfish",
+    "target_path": "vendor/google/sunfish"
+  }
+]
