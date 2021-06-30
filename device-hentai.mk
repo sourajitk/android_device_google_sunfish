@@ -4,6 +4,13 @@
 # Copyright (C) 2021 Sourajit Karmakar
 #
 
+# Audio
+PRODUCT_PACKAGES += \
+    sound_trigger.primary.sm6150 \
+    libtinycompress \
+    libjson \
+    libtinyxml
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     com.qualcomm.qti.bluetooth_audio@1.0 \
@@ -58,6 +65,28 @@ PRODUCT_PACKAGES += \
     libnos_transport:64 \
     lib_profiler:64
 
+# Light
+PRODUCT_PACKAGES += \
+    hardware.google.light@1.0.vendor:64
+
+# Media
+PRODUCT_PACKAGES += \
+    libavservices_minijail_vendor:32 \
+    libbatching \
+    libstagefright_bufferpool@2.0.1.vendor \
+    libmediaplayerservice:32 \
+    libdrm.vendor \
+    libcodec2_hidl@1.0.vendor:32 \
+    libcodec2_vndk.vendor \
+    libmediaplayerservice:32 \
+    libcppbor.vendor:64 \
+    libmedia_ecoservice.vendor
+
+# Net
+PRODUCT_PACKAGES += \
+    libnetfilter_conntrack:64 \
+    libnfnetlink:64 \
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
@@ -66,3 +95,23 @@ PRODUCT_PACKAGES += \
 
 # Properties
 TARGET_VENDOR_PROP := device/google/sunfish/vendor.prop
+
+# Sensors
+PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0 \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor:32 \
+    libsensorndkbridge:64
+
+# Stats
+PRODUCT_PACKAGES += \
+    android.hardware.atrace@1.0-service.pixel \
+    pixelatoms-cpp
+
+# Voice processing
+PRODUCT_PACKAGES += \
+    libqcomvoiceprocessingdescriptors
+
+# Wifi
+PRODUCT_PACKAGES += \
+    libwifi-hal:64 \
+    libwifi-hal-qcom
