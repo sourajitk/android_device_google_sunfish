@@ -32,5 +32,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor
 
+# NFC
+PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
+    ese_spi_st \
+    nfc_nci.st21nfc.default
+
 # Properties
 TARGET_VENDOR_PROP := device/google/sunfish/vendor.prop
