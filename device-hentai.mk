@@ -45,6 +45,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor
 
+# IMS
+PRODUCT_PACKAGES += \
+    qti-telephony-utils
+
 # Keymaster
 PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor:64 \
