@@ -17,6 +17,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
+# Binder and HIDL
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhwbinder \
+    libhidltransport.vendor \
+    libhwbinder.vendor
+
 # Camera
 PRODUCT_PACKAGES += \
     libgooglecamerahal.vendor:64 \
