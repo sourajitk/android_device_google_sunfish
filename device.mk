@@ -29,6 +29,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/sm8150/display \
     hardware/qcom/sm8150/data/ipacfg-mgr \
     hardware/qcom/sm8150/gps \
+    hardware/qcom/sm8150
 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true
