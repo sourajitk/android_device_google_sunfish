@@ -97,6 +97,10 @@ PRODUCT_PACKAGES += \
 # Properties
 TARGET_VENDOR_PROP := device/google/sunfish/vendor.prop
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-vendorcompat
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
