@@ -45,6 +45,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor
 
+# Enable Android's Kawase blur impl
+TARGET_USES_BLUR := true
+
 # IMS
 PRODUCT_PACKAGES += \
     qti-telephony-utils
