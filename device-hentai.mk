@@ -4,6 +4,12 @@
 # Copyright (C) 2021 Sourajit Karmakar
 #
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    com.qualcomm.qti.bluetooth_audio@1.0 \
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
+    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
+
 # Display
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys-intf/display \
