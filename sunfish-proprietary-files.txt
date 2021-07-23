@@ -162,8 +162,6 @@ product/lib64/vendor.qti.imsrtpservice@3.0.so
 -product/priv-app/DCMO/DCMO.apk
 -product/priv-app/DMService/DMService.apk
 -product/priv-app/DiagMon/DiagMon.apk
--product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
--product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
 -product/priv-app/HardwareInfo/HardwareInfo.apk;PRESIGNED
 -product/priv-app/HotwordEnrollmentOKGoogleRT5514P/HotwordEnrollmentOKGoogleRT5514P.apk;PRESIGNED
 -product/priv-app/HotwordEnrollmentXGoogleRT5514P/HotwordEnrollmentXGoogleRT5514P.apk;PRESIGNED
