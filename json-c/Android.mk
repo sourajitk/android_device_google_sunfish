@@ -4,20 +4,6 @@ LOCAL_MODULE := libjson
 LOCAL_PATH := $(LIBJSON_ROOT)
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
-LOCAL_COPY_HEADERS_TO := libjson/inc
-LOCAL_COPY_HEADERS := bits.h \
-		config.h \
-		debug.h \
-		linkhash.h \
-		arraylist.h \
-		json.h \
-		json_config.h \
-		json_inttypes.h \
-		json_util.h \
-		json_object.h \
-		json_tokener.h \
-		json_object_iterator.h \
-		json_c_version.h
 LOCAL_SRC_FILES := arraylist.c \
 		debug.c \
 		json_c_version.c \
