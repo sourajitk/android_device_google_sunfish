@@ -41,6 +41,6 @@ PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sunfish \
-    PRIVATE_BUILD_DESC="sunfish-user 11 RQ3A.210805.001.A1 7474174 release-keys" \
+    PRIVATE_BUILD_DESC="sunfish-user 11 RQ3A.210905.001 7511028 release-keys" \
 
-BUILD_FINGERPRINT := google/sunfish/sunfish:11/RQ3A.210805.001.A1/7474174:user/release-keys
+BUILD_FINGERPRINT := google/sunfish/sunfish:11/RQ3A.210905.001/7511028:user/release-keys
